@@ -28,7 +28,7 @@ public class ShirodemoApplicationTests {
     public void contextLoads() {
     }
 
-    @Test
+    /*@Test
     public void testHelloWorld() {
         //1、获取 SecurityManager 工厂，此处使用 Ini 配置文件初始化
         IniSecurityManagerFactory managerFactory = new IniSecurityManagerFactory("classpath:shiro.ini");
@@ -47,6 +47,6 @@ public class ShirodemoApplicationTests {
         Assert.assertEquals(true, subject.isAuthenticated()); //断言用户已经登录
         //6、退出
         subject.logout();
-    }
+    }*/
 
 }
