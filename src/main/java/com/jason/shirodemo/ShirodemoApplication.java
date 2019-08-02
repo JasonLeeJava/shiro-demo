@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.quartz.QuartzAutoConfiguration;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 
-@SpringBootApplication(exclude = {QuartzAutoConfiguration.class,SecurityAutoConfiguration.class})
+@SpringBootApplication(exclude = {QuartzAutoConfiguration.class, SecurityAutoConfiguration.class})
 @ComponentScan("com.jason.**")
 public class ShirodemoApplication {
 
